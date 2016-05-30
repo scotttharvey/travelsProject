@@ -18,32 +18,17 @@ angular.module('devmtnTravel', ['ui.router'])
             .state('packages',{
                 url:'/packages',
                 templateUrl: "../views/packages.html",
-                controller: 'mainCtrl',
-                controllerAs: 'vm'
+                controller: 'packagesCtrl',
             })
             .state('booked',{
                 url:'/booked/:id',
                 templateUrl: "../views/booked.html",
-                controller: 'mainCtrl',
-                controllerAs: 'vm'
+                controller: 'bookedCtrl',
             })
-            .state('weee',{
-                url:'/:)',
-                templateUrl: "../views/weee.html",
-                controller: 'mainCtrl',
-                controllerAs: 'vm'
-            })
-            // .state('about',{
-            //     url:'/about/',
-            //     templateUrl: "../views/about.html",
-            //     controller: 'aboutCtrl',
-            //     controllerAs: 'vm'
-            // })
             .state('locations',{
                 url:'/locations',
                 templateUrl: "../views/locations.html",
-                controller: 'mainCtrl',
-                controllerAs: 'vm'
+                controller: 'locationsCtrl',
             });
 
         $urlRouterProvider
