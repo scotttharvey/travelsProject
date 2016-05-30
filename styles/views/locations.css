@@ -63,6 +63,7 @@
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 0px;
+    border-radius: 100px;
 }
 
 @media(min-width: 900px) {
@@ -102,4 +103,3 @@
         margin: auto;
     }
 }
-
