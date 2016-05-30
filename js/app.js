@@ -27,6 +27,18 @@ angular.module('devmtnTravel', ['ui.router'])
                 controller: 'mainCtrl',
                 controllerAs: 'vm'
             })
+            .state('weee',{
+                url:'/:)',
+                templateUrl: "../views/weee.html",
+                controller: 'mainCtrl',
+                controllerAs: 'vm'
+            })
+            // .state('about',{
+            //     url:'/about/',
+            //     templateUrl: "../views/about.html",
+            //     controller: 'aboutCtrl',
+            //     controllerAs: 'vm'
+            // })
             .state('locations',{
                 url:'/locations',
                 templateUrl: "../views/locations.html",
